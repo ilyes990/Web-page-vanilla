@@ -1,0 +1,119 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: aliceblue;
+}
+
+h1:hover {
+  color: rgb(79, 247, 143);
+  cursor: pointer;
+}
+
+.button {
+  background-color: rgb(79, 247, 143);
+  color: rgb(34, 34, 34);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.inputfield {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  /* width: 100%; */
+}
+
+.input {
+  /* background-color: blueviolet; */
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  background-color: rgb(97, 97, 97);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10%; */
+  align-items: center;
+  height: 400px;
+  background-color: rgb(54, 54, 54);
+  margin-top: 5%;
+  border-radius: 5px;
+}
+
+.fields {
+  width: 50%;
+  display: grid;
+  grid-row: 2;
+  column-gap: 50px;
+  row-gap: 10px;
+}
+
+.fields > input {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.card {
+  display: flex;
+  background-color: seashell;
+  width: 70vw;
+  height: 300px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 3px 32px 51px 0px rgba(242,242,242,0.14);
+  -webkit-box-shadow: 3px 32px 51px 0px rgba(242,242,242,0.14);
+  -moz-box-shadow: 3px 32px 51px 0px rgba(242,242,242,0.14);
+  
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 3px solid rgb(79, 247, 143);
+  height: 70%;
+  width: 50%;
+  border-image: linear-gradient(to bottom, white, rgb(79, 247, 143), white) 1;
+}
+.bloc {
+  text-align: center;
+}
+
+.section:last-child {
+  border-right: none;
+}
+
+.section h1, .section h3 {
+  margin: 5px;
+  font-size: medium;
+  color: black;
+}
+
+.bloc > h1 {
+  font-weight: 600; /* Add font weight to h1 */
+}
